@@ -6,7 +6,6 @@ class ApiBaseController extends MY_Controller{
 
 		header('Access-Control-Allow-Origin: *');  
 		header('Content-Type: application/json');
-		sleep(1);
 
 		$this->load->library('doctrine');
 		$this->em = $this->doctrine->em;
